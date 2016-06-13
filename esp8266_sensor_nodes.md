@@ -253,8 +253,8 @@ For reference:
  + [List of physical units](https://tools.ietf.org/html/draft-jennings-core-senml-06#section-12.1)
  + [SenML MIME media type](https://tools.ietf.org/html/draft-jennings-core-senml-06#section-12.2)
  
- The MIME media is defined as `senml+json` for JSON SenML
- payloads. 
+ 
+The MIME media is defined as `senml+json` for JSON SenML payloads.
 
 ## Sensor node API 
 
