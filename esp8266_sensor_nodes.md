@@ -282,7 +282,7 @@ Implements a series of endpoints.
  * request
 
 ```shell
-POST /rf
+POST /frequencies?f=read
 ``` 
 with a body:
 
@@ -321,7 +321,7 @@ See the
  * request
 
 ```shell
-GET /rf
+GET /frequencies?f=read
 ``` 
  * response
 
@@ -343,7 +343,7 @@ Sensors are read every 5 minutes.
  * request
 
 ```shell
-POST /pf
+POST /frequencies?f=pub
 ``` 
 with a body:
 
@@ -381,7 +381,7 @@ See the
  * request
 
 ```shell
-GET /of
+GET /frequencies?f=pub
 ``` 
  * response
 
